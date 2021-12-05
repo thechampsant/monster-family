@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';// very critical inorder for the react to work - underline engine, how react function as a application builder
+import ReactDOM from 'react-dom'; // related to web, uses different tools to build the web application
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

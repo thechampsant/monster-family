@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
-
+h1{
+  font-family: 'Festive', cursive;
+  font-size: 72px;
+  color: #0ccac4;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
